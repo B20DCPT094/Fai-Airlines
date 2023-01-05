@@ -1,0 +1,289 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: #D0EDF6;
+    margin-left: 200px;
+}
+
+.end{
+    margin-top:15px;
+    padding-top:30px;
+    width: 1083px;
+    height: 341px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.chu{
+    margin-top:0px;
+    margin-left:20px;
+    width: 440px;
+    height: 51px;
+    color: #1B3B4B;
+}
+
+.thongtinchuyenbay{
+    margin-left: 120px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.diemdi1{
+    width: 300px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.ngaykhoihanh1{
+    width: 300px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.diemve1{
+    margin-top: 15px;
+    width: 300px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.ngayrave1{
+    margin-top: 15px;
+    width: 300px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+
+.info{
+    margin-top: 50px;
+}
+
+.info-client{
+margin-top:15px;
+padding-top:30px;
+width: 1083px;
+height: 341px;
+background: #FFFFFF;
+border-radius: 30px;
+}
+
+.info-client-name{
+margin-top:0px;
+margin-left:20px;
+width: 440px;
+height: 51px;
+color: #1B3B4B;
+}
+
+.info-client-box{
+    margin-top: 15px;
+}
+
+.info-client-box1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 20px;
+}
+
+.info-client-box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 103px;
+}
+
+.info-client-box1-input1{
+margin-left: 24px;
+width: 510px;
+height: 65px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 15px;
+}
+
+.info-client-box1-input2{
+width: 189px;
+height: 65px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 15px;
+}
+
+.info-client-box1-input3{
+margin-right: 13px;
+width: 303px;
+height: 65px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 15px;
+}  
+
+.info-client-box1-input4{
+margin-left: 24px;
+width: 513px;
+height: 65px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 15px;
+}  
+
+.info-client-box1-input5{
+margin-right: 13px;
+width: 512px;
+height: 65px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 15px;
+}  
+
+.info-seat{
+margin-bottom: 50px;
+margin-top: 85px;
+width: 1083px;
+height: 854px;
+background: #FFFFFF;
+border-radius: 30px;
+}
+
+.info-seat-group {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info-seat-name{
+    padding-top: 29px;
+    margin-left: 30px;
+    color: #1B3B4B;
+}
+
+.info-seat-image{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.thongtin1{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.thongtin3{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.thongtin5{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.thongtin6{
+    font-size: 24px;
+    font-weight: 200px;
+}
+
+.thongtin7{
+    margin-top: 100px;
+    margin-left: 350px;
+    font-size: 20px;
+    width: 193px;
+    height: 63px;
+    background: #FF723A;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+
+.info-khuyencao{
+width: 1092px;
+height: 855px;
+background: #FFFFFF;
+border-radius: 30px;
+}
+
+.khuyencao{
+    padding-top: 50px;
+    margin-left: 50px;
+    color: #1B3B4B;
+}
+
+.info-khuyencao-hinhanh{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.xacnhankhuyencao{
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 20px;
+    width: 193px;
+    height: 63px;
+    background: #FF723A;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.info-xacnhan{
+margin-top: 30px;
+width: 1092px;
+height: 532px;
+background: #1B3B4B;
+border-radius: 30px;
+}
+
+.info-xacnhan0{
+    padding-top:15px ;
+    margin-left: 30px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.info-xacnhan1{
+    margin-left: 150px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.info-xacnhan2{
+    margin-left: 200px;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.thongtinxacnhan{
+margin-left: 800px;
+font-size: 20px;
+width: 193px;
+height: 63px;
+background: #FF723A;
+border: 1px solid #000000;
+border-radius: 15px;
+}
+
+.content{
+    margin-bottom: 50px;
+}
+

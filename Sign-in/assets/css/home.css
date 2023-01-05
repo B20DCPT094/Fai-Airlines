@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "KoHo", sans-serif;
+  font-size: 62.5%;
+}
+
+.content {
+  width: 126.1rem;
+  margin: 0 auto;
+  /* background-color: #00bfff; */
+}
+
+.header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 126.1rem;
+  height: 9.8rem;
+  margin: 0 auto;
+  background-color: #00bfff;
+  padding: 0 96px;
+}
+
+.header .icon {
+  width: 20px;
+  height: 20px;
+  stroke: #1b3b4b;
+}
+
+.header .logo {
+  padding-top: 24px;
+  width: 35%;
+}
+
+.navigation {
+  padding-top: 32px;
+  transform: translateY(-25%);
+}
+
+.navigation .sign-in {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.navigation .option {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.navigation .item {
+  text-decoration: none;
+}
+
+.navigation .sign-in .item {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1b3b4b;
+}
+
+.navigation .option .item {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero-img {
+  max-width: 100%;
+  object-fit: cover;
+  margin-bottom: 19px;
+}
+
+.booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orange; */
+  width: 108.4rem;
+  height: 62rem;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+.buying-ticket {
+  width: 40.7rem;
+  height: 42.9rem;
+  background-color: #1b3b4b;
+  border-radius: 24px;
+}
+
+.booking .banner {
+  width: 54rem;
+  height: 50.7rem;
+  /* object-fit: cover; */
+}
+
+.booking .ticket {
+  /* background-color: orange; */
+  padding: 20px 30px;
+}
+
+.booking .ticket p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.booking .radio-gr .one {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.booking .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.booking .info .one {
+  display: flex;
+  align-items: center;
+}
+
+.booking .info .label {
+  color: #41c5fc;
+  font-size: 1.6rem;
+}
+
+.booking .info .icon {
+  margin-right: 16px;
+}
+
+.booking .info .two .label {
+  position: relative;
+  padding-right: 2rem;
+}
+
+.booking .info .two .label::before {
+  position: absolute;
+  left: -20px;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+}

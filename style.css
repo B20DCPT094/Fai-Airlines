@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: #d0edf6;
+  overflow-x: hidden;
+}
+
+.box-form .box-item h5 {
+  color: #41c5fc;
+}
+
+.navbar .nav-link {
+  font-family: "KoHo", sans-serif;
+}
+
+.navbar {
+  background-color: #00bfff !important;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn-signUp a {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  color: #1b3b4b;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "KoHo", sans-serif;
+}
+.dangki {
+  vertical-align: middle;
+  border-right: solid #000 1px;
+  padding-right: 5px;
+}
+.content-body {
+  background-color: #d0edf6;
+  padding-bottom: 200px;
+}
+.home {
+  padding-bottom: 20px;
+}
+.box-form {
+  margin: 0px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.form {
+  padding-top: 40px;
+}
+.item-form {
+  border-radius: 10px;
+  background-color: #1b3b4b;
+  color: #fff;
+  font-family: "KoHo", sans-serif;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.checkbox {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  margin-top: 5px;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: #00bfff;
+  font-weight: 400;
+  font-family: "KoHo", sans-serif;
+}
+.ip1 {
+  width: 70%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.ip2 {
+  width: 20%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.ip3 {
+  width: 90%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.btn-dangki {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.btn-dangki button {
+  background-color: #ff723a;
+  font-family: "KoHo", sans-serif;
+  padding: 10px;
+  border-radius: 30px;
+}
+.box-form-2 {
+  margin-top: 20px;
+}
+.box-item {
+  padding-top: 10px;
+  text-align: center;
+}
+.sliders {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sliders h2,
+.info h2 {
+  font-size: 25px;
+}
+.info {
+  padding-top: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.mySlides1,
+.mySlides2 {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.box-item-info h4 {
+  color: #00bfff;
+  font-size: 25px;
+  font-family: "KoHo", sans-serif;
+  padding-top: 10px;
+}
+.box-item-info p {
+  font-weight: 600;
+}
+
+.footer .item-footer .link {
+  text-decoration: none;
+  color: #212529;
+}
+
+.footer {
+  background-image: linear-gradient(#0cbfff, #caebf6);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "KoHo", sans-serif;
+}
+.main-footer {
+  margin: 0;
+}
+.item-footer h3 {
+  font-size: 22px;
+}
+.item-footer ul {
+  list-style: none;
+  padding: 0px;
+}
+.item-footer ul li {
+  text-align: start;
+}
+.icon-footer img {
+  margin-right: 10px;
+}
+.banner {
+  padding-bottom: 50px;
+}
+.sliders {
+  padding-top: 30px;
+}
+
+.slider {
+  margin-bottom: 50px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.current {
+  opacity: 1;
+}
+
+.info h2,
+.sliders h2 {
+  font-family: "KoHo", sans-serif;
+}
+
+.info .box-item-info h4,
+.info .box-item-info p {
+  font-family: "KoHo", sans-serif;
+}
+
+/* ================================================= 
+                      slide content
+  ==================================================*/
+
+.slide .content {
+  font-family: "KoHo", sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: -600px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px 25px;
+  width: 40%;
+  line-height: 1.6;
+  font-size: 14px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(0%);
+  left: 0;
+}
+
+/* ================================================= 
+                      buttons
+  ==================================================*/
+
+.buttons {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+.next-btn,
+.prev-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 20px;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.next-btn {
+  position: absolute;
+  right: 15px;
+}
+.prev-btn {
+  position: absolute;
+  left: 15px;
+}
+.next-btn:hover,
+.prev-btn:hover {
+  background: #f1f1f1;
+  color: black;
+}
+/*================================================ 
+                 background images
+  ==================================================*/
+
+.slide:first-child {
+  background: url("images/ve-may-bay-di-na-uy-gia-re.jpg") no-repeat center
+    center/cover;
+}
+.slide:nth-child(2) {
+  background: url("images/ve-may-bay-di-nhat-ban-hang-vietnam-airlines.jpg")
+    no-repeat center center/cover;
+}
+.slide:nth-child(3) {
+  background: url("images/tre-chuyen-bay-1.jpg") no-repeat center center/cover;
+}
+.slide:last-child {
+  background: url("images/Poster\ trang\ chu-01.jpg") no-repeat center
+    center/cover;
+}
+
+/* ================================================= 
+                      responsive 
+  ==================================================*/
+@media screen and (max-width: 768px) {
+  .slide .content {
+    width: 100%;
+    bottom: -15%;
+    left: 0;
+  }
+  .slide.current .content {
+    opacity: 1;
+    transform: translateY(0%);
+    left: 0;
+    bottom: 0%;
+  }
+}

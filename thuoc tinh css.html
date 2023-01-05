@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>Tạo menu</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #D0EDF6;
+        }
+        body{
+            font-family: KOHO;
+            font-size: 20px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        ul li{
+            list-style: none;
+        }
+        #logo{
+            float: left;
+            display: block;
+            position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+            top: 0; /*Nằm trên cùng*/
+            left: 0; /*Nằm sát bên trái*/
+            z-index: 100000; /*Hiển thị lớp trên cùng*/
+        }
+        #logo img{
+            width: 60%;
+            height: auto;
+            margin-left: 80px;
+        }
+        ul#main_menu {
+            float: right;
+        }
+        ul#main_menu li{
+            float: left;
+        }
+        ul#main_menu li a{
+            text-decoration: none;
+            color: rgb(255, 255, 255); 
+        }
+        div.round {
+            background-color: #00BFFF;
+            width: 100%;
+            height: 120px;
+            position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+            top: 0; /*Nằm trên cùng*/
+            left: 0; /*Nằm sát bên trái*/
+            z-index: 100000; /*Hiển thị lớp trên cùng*/
+        }
+        div.round1 {
+            background-color: #ffffff;
+            border-radius: 65px;
+            padding: 20px;
+            margin-top: 200px;
+            margin-left: 85px;
+            margin-right: 85px;
+        
+        }
+        div.round2 {
+            background-color: #ffffff;
+            border-radius: 65px;
+            padding: 20px;
+            padding-bottom: 100px;
+            margin-top: 50px;
+            margin-left: 85px;
+            margin-right: 85px;
+        }
+        div.round3 {
+            background-color: #ffffff;
+            border-radius: 65px;
+            padding: 20px;
+            padding-bottom: 500px;
+            margin-top: 50px;
+            margin-left: 85px;
+            margin-right: 85px;
+        }
+        div.round4 {
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            padding: 20px;
+        }
+        div.round5 {
+            background: linear-gradient(to bottom,#00BFFF,#ffffff);
+            padding-bottom: 100px;
+            padding-top: 2px;
+            margin-top: 300px;
+        }
+        div.round6 {
+            padding: 20px;
+            padding-top: 0px;
+        }
+        div.round7 {
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            padding: 20px;
+            padding-top: 0px;
+        }
+        h1{
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 10px;
+        }
+        h2{
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            margin-top: 30px;
+        }
+        div.a{
+            background-color: #FF723A;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 10px;
+            margin-left: 950px;
+            text-align: center;
+        }
+    </style>
+    <div class="round">
+        <a href="" id="logo">
+            <img src="Logo/logo.jpg">
+        </a>
+        <div>
+            <ul>
+                <p><i class="fas fa-user-circle" style="margin-left: 950px; letter-spacing: 1px;"> 
+                    <a href="dangki.html" style="text-decoration: none; color: #000;">Đăng kí | </a>
+                    <a href="dangnhap.html" style="text-decoration: none; color: #000;">Đăng nhập</a>
+                </i></p>
+
+            </ul>
+            <ul id="main_menu">
+                <li><a href="chuyenbay.html">CHUYẾN BAY CỦA TÔI</a></li>
+                <li><a href="checkin.html"style="padding: 20px;;">CHECK IN</a></li>
+                <li><a href="dichvu.html" style="margin-right: 100px;">DỊCH VỤ CHUYẾN BAY</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div id="content"></div>
+        <div id="footer"></div>
+    </div>
+</div>
+    <div class="round1">
+         <h1>Khách sạn</h1>
+         <h2>Tận hưởng giảm giá đến 80% các khách sạn trên toàn thế giới</h2>
+            <div>
+                <p><i class="fas fa-map-marker-alt" style="background-color: #ffffff;font-size: 20px; border-radius: 20px; border: 1px solid rgb(0, 0, 0); width: 97%; padding: 0px 15px;"> 
+                    <input type="text" id="box" placeholder="Thành phố, khách sạn, điểm đến" style="padding: 20px ; border: none; width: 50%; outline: none;background: none; font-size: 15px;"></i></p>
+            </div>
+            <div>
+            <div style="float: left;">                            
+                <h1 style="font-size: 20px;">Nhận phòng</h1>
+                <p><i class="fas fa-calendar-alt" style="background-color: #ffffff;font-size: 20px; border-radius: 20px; border: 1px solid rgb(0, 0, 0); width: 345px; padding: 0px 15px;"> 
+                    <input type="text" placeholder="Thứ 6,02,thg 12 2022" style="padding: 20px ; border: none; width: 50%; outline: none;background: none; font-size: 15px;"></i></p>
+            </div>
+            <div style="float: left; margin-left: 20px;"> 
+                    <h1 style="font-size: 20px;">Số đêm</h1>
+                    <p><i class="fas fa-moon" style="background-color: #ffffff;font-size: 20px; border-radius: 20px; border: 1px solid rgb(0, 0, 0);padding: 0px 15px;"> 
+                        <input type="number" placeholder="1 đêm" style="padding: 20px ; border: none; outline: none;background: none; font-size: 15px;"></i></p>    
+            </div>
+            <div style="float: left; margin-left: 20px;">
+                <h1 style="font-size: 20px;">Trả phòng</h1>
+                    <p><i class="fas fa-calendar-alt" style="background-color: #ffffff;font-size: 20px; border-radius: 20px; border: 1px solid rgb(0, 0, 0); width: 340px ;padding: 0px 15px; "> 
+                        <input type="text" placeholder="Thứ 2,05,thg 12 2022" style="padding: 20px ; border: none; outline: none;background: none; font-size: 15px;"></i></p>
+            </div>
+            </div>
+            <div>
+                <h1 style="font-size: 20px;">Khách và phòng</h1>
+                <p><i class="fas fa-users" style="background-color: #ffffff;font-size: 20px; border-radius: 20px; border: 1px solid rgb(0, 0, 0); width: 650px; padding: 0px 15px; float: left;"> 
+                    <input type="text" id="box" placeholder="2 người lớn, 0 trẻ em, 1 phòng" style="padding: 20px ; border: none; width: 50%; outline: none;background: none; font-size: 15px;"></i></p>
+            </div>
+            <div>
+                <p><i class="fas fa-search" style="background-color: #ffffff;font-size: 20px; border-radius: 20px; border: 1px solid rgb(0, 0, 0);  width: 340px;padding: 0px 15px; margin-left: 20px;"> 
+                    <button style="padding: 20px ; border: none; outline: none;background: none; font-size: 15px;">Tim khách sạn</button></i></p>
+             </div>
+             </div>
+    </div>
+
+    <div class="round2">
+    <div>
+     <h1>Mua thêm hành lý</h1>
+     <h2 style="font-size: 30px; font-family: KOHO;text-align: center;">Quy chuẩn hành lý ký gửi</h2>
+     <p style="margin: 20px;;">Kích thước tiêu chuẩn hành lý ký gửi không được quá 119cm x 119cm x 81cm và trọng lượng không vượt quá 32kg. Mỗi hành lý vượt mức kích thước quy định sẽ được tính là hành lý quá khổ.<br>
+        Để tiết kiệm chi phí nhất, bạn nên đăng ký mua trước Gói hành lý quá khổ tại Website, Phòng vé, Đại lý và Trung Tâm phục vụ khách hàng. Gói hành lý ký gửi quá khổ được mua trước đã gồm phí hành lý ký gửi và phí dịch vụ xử lý hành lý quá khổ.<br>
+        *Lưu ý:
+        <li style="list-style-position: outside;margin-left: 20px;">Bạn đã mua gói hành lý ký gửi tiêu chuẩn vẫn có thể thay đổi thành hành lý quá khổ trước 3 tiếng so với giờ bay khởi hành dự kiến bằng cách liên hệ các kênh bán để yêu cầu.</li>
+        <li style="list-style-position: outside;margin-left: 20px;">Phí dịch vụ hành lý quá khổ sẽ cao hơn khi mua tại sân bay.</li></p>
+    </div>
+    <div>
+        <h2 style="font-size: 30px; font-family: KOHO;text-align: center;">Bảng giá hành lý</h2>
+        <table border="2" style="border-collapse:collapse ; text-align: center; font-family: KOHO; margin: auto; width: 100%;" >
+            <tr>
+                <td rowspan="2" colspan="3" style="background-color: #FF723A;height: 50px;">GÓI HÀNH LÝ</td>
+            </tr>
+            <tr>
+                <td style="background-color: #FF723A; height: 50px;">QUỐC HỘI (VNĐ)</td>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="2">Mua trước qua Website/<br>Đại lý/Phòng vé</td>
+                <td style="width: 20%;">15kg</td>
+                <td style="width: 40%">140.000</td>
+            </tr>
+            <tr>
+                <td>15kg</td>
+                <td>160.000</td>
+            </tr>
+            <tr>
+                <td>20kg</td>
+                <td>180.000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Mua tại sân bay(trong vòng 3 giờ)</td>
+                <td>300.000/15kg</td>
+            </tr>
+            <tr>
+                <td colspan="3">Hành lý quá cước tại sân bay(theo kg)</td>
+                <td>40.000</td>
+            </tr>
+        </table>
+        <div class="a"><a href="muathem.html" style="text-decoration: none; color: #000;">Mua thêm</a></div>
+        </div>
+    </div>
+    <div class="round3">
+        <div>
+         <h1>Bảo hiểm</h1>
+        </div>
+        <div style="margin-top: 80px;">
+         <div class="round4" style="width: 26%; float: left;height: 290px;">
+         <h1 style="color: #00BFFF;font-size: 23px; text-align: center;">BẢO HIỂM DU LỊCH</h1>
+         <p>
+            <li style="list-style-position: outside;">Bảo hiểm du lịch trọn gói với hạn mức cao</li> 
+            <li style="list-style-position: outside">Dịch vụ trợ hỗ khẩn cấp 24 giờ</li>
+            <li style="list-style-position: outside">Áp dụng toàn mạng bay nội địa và quốc tế</li>
+            <li style="list-style-position: outside">Áp dụng tất cả các hạng vé</li>
+            <li style="list-style-position: outside">Chọn mua thêm Bảo hiểm Vietjet TravelCare giá chỉ từ 59,000 đồng/ chiều</li>
+        </p>
+         </div>
+         <div class="round4" style="width: 28%; float: left;margin-left: 45px;height: 290px">
+            <h1 style="color: #00BFFF;font-size: 23px; text-align: center;">BẢO HIỂM CHUYẾN BAY</h1>
+            <p>
+                <li style="list-style-position: outside; ">Bảo hiểm dành cho chuyến bay như hoãn, hủy chuyến bay, hành lý thất lạc</li>
+                <li style="list-style-position: outside">Áp dụng toàn mạng bay nội địa và quốc tế</li>
+                <li style="list-style-position: outside"> Chỉ áp dụng hạng vé Deluxe & SkyBoss</li>
+                <li style="list-style-position: outside">Miễn phí cho tất cả hành khách mua vé hạng Deluxe hoặc SkyBoss</li>
+                <li style="list-style-position: outside">Xem thêm chi tiết <a href="taiday1.html" style="color: red;">tại đây</a></li> 
+                </p>
+            </div>
+            <div class="round4"style="width: 26%;float: left;margin-left: 45px;height: 290px">
+                <h1 style="color: #00BFFF;font-size: 23px; text-align: center;">BẢO HIỂM BAY AN TOÀN</h1>
+                <p><li style="list-style-position: outside">Bảo hiểm tai nạn trong vòng 24 tiếng và hơn thế nữa...</li>
+                    <li style="list-style-position: outside">Chỉ áp dụng chuyến bay nội địa</li>
+                    <li style="list-style-position: outside">Áp dụng tất cả các hạng vé</li>
+                    <li style="list-style-position: outside">Miễn phí cho tất cả hành khách ở mọi hạng vé</li>
+                    <li style="list-style-position: outside">Xem thêm chi tiết <a href="taiday2.html" style="color: red;">tại đây</a></li> 
+                    </p>
+                </div>
+        </div>
+    </div>
+   
+            <div class="round5">
+                <div style="margin-top: 60px;">
+                 <div class="round6" style="width: 25%; float: left;margin-left: 60px;">
+                 <h1 style="color: #000000;font-size: 20px;">VỀ CHÚNG TÔI </h1>
+                 <p style="line-height: 50px;">
+                    <a href="tintuc.html" style="text-decoration: none; color: #000;">Tin tức</a><br>
+                    <a href="nhadautu.html" style="text-decoration: none;color: #000;">Nhà đầu tư</a><br>
+                    <a href="camnang.html" style="text-decoration: none;color: #000;">Cẩm nang du lịch</a><br>
+                    <a href="tongdai.html" style="text-decoration: none;color: #000;">Tổng đài phục vụ khách hàng</a>               
+                </p>
+                 </div>
+                 <div class="round6" style="width: 25%; float: left;margin-left: 75px;">
+                    <h1 style="color: #000000;font-size: 20px;">CÂU HỎI THƯỜNG GẶP</h1>
+                    <p style="line-height: 50px;">
+                        <a href="datcho.html" style="text-decoration: none; color: #000;">Đặt chỗ mua vé</a><br>
+                        <a href="datve.html" style="text-decoration: none;color: #000;">Đặt vé trực tuyến</a><br>
+                        <a href="thanhtoan.html" style="text-decoration: none;color: #000;">Thanh toán</a><br>
+                        <a href="thutuc.html" style="text-decoration: none;color: #000;">Thủ tục chuyến bay</a>
+                        </p>
+                    </div>
+                    <div class="round6"style="width: 25%;float: left;margin-left: 60px;">
+                        <h1 style="color: #000000;font-size: 20px;">CHĂM SÓC KHÁCH HÀNG</h1>
+                       <p style="line-height: 50px;">
+                        <a href="dichvu.html" style="text-decoration: none; color: #000;">Dịch vụ chuyến bay</a><br>
+                        <a href="thongtin.html" style="text-decoration: none;color: #000;">Thông tin bồi thường</a><br>
+                        <a href="noichuyyen.html" style="text-decoration: none;color: #000;">Thông tin nối chuyến</a><br>
+                        <a href="giaitri.html" style="text-decoration: none;color: #000;">Giải trí</a>
+                       </p>
+                        </div>
+                </div>
+                <div style="margin-left: 980px; font-size: 25px; letter-spacing: 15px;">
+                    <div>
+                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-recycle"></i>
+                        <i class="fas fa-camera"></i>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+

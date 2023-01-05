@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chuyến bay của tôi</title>
+    <style>
+        body{
+            font-family: KoHo;
+            font-size: 20px;
+            color: #1b3b4b;
+        }
+        input{
+            padding: 10px;
+            border-radius: 20px;
+            font-family: KoHo;
+            font-size: 20px;
+            color: #1b3b4b;
+        }
+        a {
+            text-decoration: none !important;
+        }
+        .div2 {
+            height: 1300px;
+        }
+        .div2_a {
+            display: flex;
+            margin: 100px 188px 0 188px;
+            text-align: center;
+        }
+        .div2_a1 {
+            flex: 6;
+            background-color: #1b3b4b;
+        }
+
+        .div2_a1 form {
+            margin: 0 120px 0 120px;
+        }
+
+        .div2_a1 form input:not([type='checkbox']) {
+            width: 100%;
+        }
+
+        .div2_a2 {
+            flex: 4;
+            background-color: #00bfff;
+        }
+
+        .div2_a2 img {
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/final1.2/index.html"
+        ><img src="./images/logo.png" alt="" width="250px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Chuy%E1%BA%BFn%20bay%20c%E1%BB%A7a%20t%C3%B4i.html"
+              >CHUYẾN BAY CỦA TÔI</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="http://127.0.0.1:5500/CuoiKy/checkin.html"
+              >CHECK IN</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/d%E1%BB%8Bch%20v%E1%BB%A5%20chuy%E1%BA%BFn%20bay/thuoc%20tinh%20css%20(1).html"
+              >DỊCH VỤ CHUYẾN BAY</a
+            >
+          </li>
+        </ul>
+        <div class="d-flex btn-signUp">
+          <a href="http://127.0.0.1:5500/Dang%20ky%20tai%20khoan.html" class="dangki">
+            <img src="./images/signup.png" alt="" /> Đăng Ký</a
+          >
+          <a href="http://127.0.0.1:5500/final1.2/sign-in.html">Đăng Nhập</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <div class="div2">
+        <div class="div2_a">
+            <div class="div2_a1">
+                <div style="padding: 15px;"></div>
+                <p style="color: #fff; text-align: center;"><b><i>CHUYẾN BAY CỦA TÔI</i></b></p><br>
+                <p style="color: #fff;margin: 0 120px 0 120px;">Vui lòng điền đầy đủ thông tin dưới đây để kiểm tra các thông tin về chuyến bay bạn đã đặt.</p><br>
+                <form>
+                    <label for="Ho"></label><br>
+                    <input type="text" id="Ho" name="Ho" placeholder="Họ*"><br>
+                    <label for="Ten dem va ten"></label><br>
+                    <input type="text" id="Ten dem va ten" name="Ten dem va ten" placeholder="Tên đệm và tên*"><br>
+                    <label for="Ma dat cho"></label><br>
+                    <input type="text" id="Ma dat cho" name="Ma dat cho" placeholder="Mã đặt chỗ*"><br><br><br>
+                    <a style="background-color: #ff7233; padding: 14px 20px; border-radius: 20px;font-family: KoHo;font-size: 20px;" href="http://127.0.0.1:5500/Web.html"><b>Tìm kiếm</b></a>
+                  </form>
+            </div>
+            <div class="div2_a2">
+                <img src="—Pngtree—creative poster travel abroad_279265.jpg" alt="" style="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-main container">
+          <div class="main-footer row">
+            <div class="item-footer col-6 col-sm-4">
+              <h3>VỀ CHÚNG TÔI</h3>
+              <ul>
+                <li><a href="#!" class="link">Tin tức</a></li>
+                <li><a href="#!" class="link">Nhà đầu tư</a></li>
+                <li><a href="#!" class="link">Cẩm nang du lịch</a></li>
+                <li><a href="#!" class="link">Tổng đài phục vụ khách hàng</a></li>
+              </ul>
+            </div>
+            <div class="item-footer col-6 col-sm-4">
+              <h3>CÂU HỎI THƯỜNG GẶP</h3>
+              <ul>
+                <li><a href="#!" class="link">Đặt chỗ mua vé</a></li>
+                <li><a href="#!" class="link">Đặt chỗ trực tiếp</a></li>
+                <li><a href="#!" class="link">Thanh toán</a></li>
+                <li><a href="#!" class="link">Thủ tục chuyến bay</a></li>
+              </ul>
+            </div>
+            <div class="item-footer col-6 col-sm-4">
+              <h3>CHĂM SÓC KHÁCH HÀNG</h3>
+              <ul>
+                <li><a href="#!" class="link">Dịch vụ chuyến bay</a></li>
+                <li><a href="#!" class="link">Thông tin bồi thường</a></li>
+                <li><a href="#!" class="link">Thông tin nối chuyến</a></li>
+                <li><a href="#!" class="link">Giải trí</a></li>
+              </ul>
+              <div class="icon-footer">
+                <a href="#!"
+                  ><img src="/images/Union.png" alt="" width="30px"
+                /></a>
+                <a href="#!"
+                  ><img src="/images/Union (1).png" alt="" width="30px"
+                /></a>
+                <a href="#!"
+                  ><img src="/images/Union (2).png" alt="" width="30px"
+                /></a>
+                <a href="#!"
+                  ><img src="/images/Union (3).png" alt="" width="30px"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <script src="/script.js"></script>
+      <script src="/silder.js"></script>
+</body>
+</html>
